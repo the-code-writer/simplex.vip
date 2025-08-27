@@ -116,7 +116,7 @@ function App() {
                 {/* Logo End*/}
                 {/* Main Headline Start */}
                 <div className="intro__headline">
-                  <Fade bottom appear delay={500} >
+                  <Fade delay={500} >
                   <h1
                     className="light-text"
                     style={{
@@ -126,8 +126,8 @@ function App() {
                       textShadow: "2px 2px 8px rgba(0,0,0,0.35)",
                     }}
                   >
-                    <Fade bottom appear delay={500} ><span>Double Productivity. <br /></span></Fade>
-                    <Fade bottom appear delay={500} ><span>Redefine Your Industry.</span></Fade>
+                    <Fade delay={500} ><span>Double Productivity. <br /></span></Fade>
+                    <Fade delay={500} ><span>Redefine Your Industry.</span></Fade>
                 </h1>
                 </Fade>
                   <p className="light-text"></p>
@@ -174,7 +174,7 @@ function App() {
         {/* Home Section End*/}
 
         {/* About Section Start*/}
-<Fade bottom appear delay={500} >
+<Fade delay={500} >
         <div
           className="section fp-auto-height inner about"
           data-anchor="aboutPage"
@@ -182,7 +182,7 @@ function App() {
           <div className="container-fluid p-0 fullheight image-1">
             <div className="section-wrapper flex-end bg-semi-transparent">
                 <div className="section-contents filled">
-                  <Fade bottom appear delay={500} >
+                  <Fade delay={500} >
                 <h2 className="section-title">
                   Embed AI into every task, process, and workflow.
                 </h2>
@@ -194,7 +194,7 @@ function App() {
         </Fade>
         {/* About Section End*/}
 
-        <Fade bottom appear delay={500} >
+        <Fade delay={500} >
           {/* About Section Start*/}
 
           <div
@@ -204,7 +204,7 @@ function App() {
             <div className="container-fluid p-0 fullheight image-3">
               <div className="section-wrapper bg-semi-transparent">
                 <div className="section-contents filled">
-                  <Fade bottom appear delay={500} >
+                  <Fade delay={500} >
                   <h2 className="section-title">
                     Deliver unforgettable customer experiences.
                   </h2>
@@ -224,7 +224,7 @@ function App() {
             <div className="container-fluid p-0 fullheight image-2">
               <div className="section-wrapper flex-end bg-semi-transparent">
                 <div className="section-contents filled">
-                  <Fade bottom appear delay={500} >
+                  <Fade delay={500} >
                   <h2 className="section-title">
                     Engineered for mission-critical workflows.
                   </h2>
@@ -237,7 +237,7 @@ function App() {
         </Fade>
 
         {/* Contact Section Start*/}
-        <Fade bottom appear delay={500} >
+        <Fade delay={500} >
           <div
             className="section fp-auto-height inner contact"
             data-anchor="contactPage"
@@ -249,11 +249,11 @@ function App() {
                   <div className="content-block auto-height form-block">
                     {/* Section Title Start */}
                     <div className="section-title">
-                      <Fade bottom appear delay={500} >
+                      <Fade delay={500} >
                         <span className="title">Book A Demo</span></Fade>
-                      <Fade bottom appear delay={500} >
+                      <Fade delay={500} >
                       <h2 className="cta-text">Seize the Moment</h2></Fade>
-                      <br /><Fade bottom appear delay={500} >
+                      <br /><Fade delay={500} >
                       <p className="contact-text">
                         You can call us or leave a request here. We are always
                         glad to see you.
@@ -293,32 +293,32 @@ function App() {
                           defaultValue="Contact Form Message"
                         />
                         {/* END Hidden Required Fields*/}
-                        <Fade bottom appear delay={500} >
+                        <Fade delay={500} >
                         <input
                           className=""
                           type="text"
                           name="Name"
                           placeholder="Your Name*"
-                        /></Fade><Fade bottom appear delay={500} >
+                        /></Fade><Fade delay={500} >
                         <input
                           className=""
                           type="email"
                           name="E-mail"
                           placeholder="Phone Number*"
                           /></Fade>
-                        <Fade bottom appear delay={500} ><input
+                        <Fade delay={500} ><input
                           className=""
                           type="email"
                           name="E-mail"
                           placeholder="Email Adress*"
                         /></Fade>
-                        <Fade bottom appear delay={500} ><input
+                        <Fade delay={500} ><input
                           className=""
                           type="email"
                           name="E-mail"
                           placeholder="Industry*"
                         /></Fade>
-                        <Fade bottom appear delay={500} ><textarea
+                        <Fade delay={500} ><textarea
                           className=""
                           name="Message"
                           placeholder="About your organisation*"
@@ -402,7 +402,7 @@ function App() {
       </div>
       {/* Fullpage.js Sections End */}
       {/* Notify Me Popup Start */}
-      <Fade bottom appear delay={500} >
+      <Fade delay={500} >
       <div className="popup notify">
         <div className="popup__content popup-bg-1">
           {/* Close Button Start */}
@@ -455,7 +455,7 @@ function App() {
       </Fade>
       {/* Notify Me Popup End */}
       {/* Write-a-Line Popup Start */}
-      <Fade bottom appear delay={500} >
+      <Fade delay={500} >
       <div className="popup writealine">
         <div className="popup__content popup-bg-1">
           {/* Close Button Start */}
@@ -540,7 +540,7 @@ function App() {
       {/* Write-a-Line Popup End */}
       {/* Custom HTML End */}
       {/* Root element of PhotoSwipe. Must have class pswp. */}
-      <Fade bottom appear delay={500} >
+      <Fade delay={500} >
       <div className="pswp" tabIndex={-1} role="dialog" aria-hidden="true">
         {/* Background of PhotoSwipe.
 It's a separate element, as animating opacity is faster than rgba(). */}
