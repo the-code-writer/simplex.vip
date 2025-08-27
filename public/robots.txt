@@ -1,0 +1,28 @@
+User-agent: *
+Crawl-delay: 10
+
+### Directories
+Disallow: /browser-not-supported/
+Disallow: /cookies-required/
+Disallow: /404/
+Disallow: /500/
+Disallow: /invitation-invalid/
+Disallow: /confirmation/
+Disallow: /unsubscribe/
+Disallow: /orders/
+
+### Redirects
+Disallow: /rv/
+Disallow: /mobility/
+Disallow: /maritime/
+Disallow: /aviation/
+Disallow: /case-studies/
+Disallow: /fixed-site/
+Disallow: /kit/
+Disallow: /welcome/
+
+### SITEMAPS
+Sitemap: https://www.starlink.com/sitemap-index.xml
+Sitemap: https://www.starlink.com/sitemap-auth.xml
+Sitemap: https://www.starlink.com/support/sitemap-index.xml
+Sitemap: https://www.starlink.com/sitemap-stories.xml

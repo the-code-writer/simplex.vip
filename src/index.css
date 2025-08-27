@@ -66,3 +66,239 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+#video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+#video-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.section-title {
+  text-align: center;
+}
+
+#video-bg {
+  opacity: 0.35 !important;
+}
+.intro__logo {
+  top: 0rem;
+  max-width: 225px !important;
+}
+@media only screen and (min-width: 1400px) {
+  .intro__logo {
+    top: 0rem;
+    left: 14rem;
+  }
+}
+
+h1.light-text {
+  font-family: "Encode Sans Semi Condensed", sans-serif;
+  text-align: center !important;
+  font-weight: 300;
+  font-size: 96px;
+  text-transform: uppercase;
+}
+
+.cta-text {
+  font-family: "Encode Sans Semi Condensed", sans-serif;
+  text-align: center !important;
+  font-weight: 500;
+  font-size: 48px;
+  text-transform: uppercase;
+}
+
+.loader__logo {
+  display: block;
+  width: 100%;
+  height: 128px;
+}
+
+.loader__logo img {
+  display: block;
+  width: 100%;
+  height: 128px;
+}
+
+body {
+  font-family: "Encode Sans Semi Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-transform: unset !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Encode Sans Semi Condensed", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.section-wrapper {
+  position: relative;
+  width: 100vw !important;
+  height: 100% !important;
+  min-height: 860px !important;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.section-wrapper.flex-end {
+  justify-content: flex-end !important;
+}
+
+.section-title > h2 {
+  font-size: 42px !important;
+}
+
+.section-title .title {
+  font-family: "Encode Sans Semi Condensed", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #ffffff !important;
+}
+
+.section-contents {
+  height: unset !important;
+  font-size: 28px !important;
+  width: 50% !important;
+  display: flex;
+  text-align: left !important;
+  padding: 0 32px;
+  background-color: rgba(255, 0, 0, 0);
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: flex-start;
+  border: 1px solid rgba(255, 0, 0, 0);
+  margin: 24px;
+  line-height: 1;
+}
+
+@media only screen and (max-width: 1200px) {
+  .section-contents {
+    width: 50% !important;
+  }
+}
+
+.bg-semi-transparent {
+  background-color: rgba(0, 0, 0, 0.53) !important;
+}
+
+h2.section-title {
+  font-family: "Encode Sans Semi Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #ffffff !important;
+  font-size: 48px !important;
+  text-align: left !important;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.73);
+  max-width: 800px !important;
+  line-height: 1.2;
+}
+
+p.section-title {
+  font-family: "Encode Sans Semi Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff !important;
+  font-size: 18px !important;
+  text-align: left !important;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.73);
+  max-width: 600px !important;
+}
+
+.section,
+.content-block {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+.section a {
+  color: #cccccc !important;
+}
+
+.section p {
+  color: #ffffff !important;
+}
+
+.content-block.form-block {
+  padding-left: 12.8rem;
+  padding-right: 12.8rem;
+  background-color: #161616 !important;
+}
+
+.form-dark ::-webkit-input-placeholder {
+  color: #cdcdcd;
+  font-family: "Encode Sans Semi Condensed", sans-serif;
+  font-weight: 500;
+}
+
+.intro-bg-5 {
+  background-image: unset;
+}
+
+.content-block.form-block {
+  padding-left: 4rem;
+  padding-right: 4rem;
+  background-color: #020202 !important;
+}
+
+.footer.bg-dark {
+  padding: 3.2rem 10%;
+  background-color: #000000;
+}
+
+.image-1 {
+  background-image: url("../img/workflows.webp") !important;
+  background-size: cover;
+}
+
+.image-2 {
+  background-image: url("../img/precision.webp") !important;
+  background-size: cover;
+}
+
+.image-3 {
+  background-image: url("../img/customer.png") !important;
+  background-size: cover;
+}
+
+h2 {
+    position: relative;
+    font: normal 700 4rem / 1.1 "Playfair Display", serif;
+    color: #ffffff;
+    margin: 0;
+}
+
+.menu-trigger span {
+transform: unset;
+background-color: transparent !important;
+bottom: unset !important;
+}
