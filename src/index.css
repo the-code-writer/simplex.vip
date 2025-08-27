@@ -200,12 +200,6 @@ h6 {
   line-height: 1;
 }
 
-@media only screen and (max-width: 1200px) {
-  .section-contents {
-    width: 50% !important;
-  }
-}
-
 .bg-semi-transparent {
   background-color: rgba(0, 0, 0, 0.53) !important;
 }
@@ -291,14 +285,36 @@ p.section-title {
 }
 
 h2 {
-    position: relative;
-    font: normal 700 4rem / 1.1 "Playfair Display", serif;
-    color: #ffffff;
-    margin: 0;
+  position: relative;
+  font: normal 700 4rem / 1.1 "Playfair Display", serif;
+  color: #ffffff;
+  margin: 0;
 }
 
 .menu-trigger span {
-transform: unset;
-background-color: transparent !important;
-bottom: unset !important;
+  transform: unset;
+  background-color: transparent !important;
+  bottom: unset !important;
+}
+
+.light-text.hero-text {
+  font-size: 64px;
+  font-weight: 500 !important;
+  line-height: 1.25 !important;
+  text-shadow: "2px 2px 8px rgba(0,0,0,0.35)" !important;
+}
+
+@media only screen and (max-width: 800px) {
+  .light-text.hero-text {
+    font-size: 48px;
+  }
+
+  .section-contents, h2.section-title { 
+        width: 100% !important;
+    font-size: 38px !important;
+    }
+
+    .section-wrapper {
+  min-height: 560px !important;
+}
 }
